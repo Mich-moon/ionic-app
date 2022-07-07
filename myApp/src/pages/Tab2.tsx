@@ -1,6 +1,5 @@
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
 import { IonList, IonListHeader, IonItem } from '@ionic/react';
-import ExploreContainer from '../components/ExploreContainer';
 import './Tab2.css';
 
 import majors from "../data/majors.json";
@@ -20,14 +19,30 @@ const Tab2: React.FC = () => {
             <IonTitle size="large">Programmes</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <ExploreContainer name="Tab 2 page" />
+
         <IonList>
           <IonListHeader>
             Majors
           </IonListHeader>
-          <IonItem *ngFor="let major of majors">
-            {{major.title}}
-          </IonItem>
+          {majors.map(major => {
+            return (
+              <IonItem key={major.id}>
+                {major.title}
+              </IonItem>
+            )
+          })}
+        </IonList>
+        <IonList>
+          <IonListHeader>
+            Minors
+          </IonListHeader>
+          {minors.map(minor => {
+            return (
+              <IonItem key={minor.id}>
+                {minor.title}
+              </IonItem>
+            )
+          })}
         </IonList>
       </IonContent>
     </IonPage>

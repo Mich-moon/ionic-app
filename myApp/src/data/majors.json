@@ -1,17 +1,22 @@
 [
     {
-        "title" : "BSc. General - Computer Science Major"
+        "title" : "BSc. General - Computer Science Major",
+        "id" : 0
     },
     {
-        "title" : "BSc. General - Software Engineering Major"
+        "title" : "BSc. General - Software Engineering Major",
+        "id" : 1
     },
     {
-        "title" : "BSc Information Technology"
+        "title" : "BSc Information Technology",
+        "id" : 2
     },
     {
-        "title" : "BSc. Software Engineering (Mobile Application Technologies)"
+        "title" : "BSc. Software Engineering (Mobile Application Technologies)",
+        "id" : 3
     },
     {
-        "title" : "BSc Computer Studies Option"
+        "title" : "BSc Computer Studies Option",
+        "id" : 4
     }
 ]

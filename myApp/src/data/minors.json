@@ -1,11 +1,14 @@
 [
     {
-        "title" : "Minor in Computer Science"
+        "title" : "Minor in Computer Science",
+        "id" : 0
     },
     {
-        "title" : "Minor in Software Engineering"
+        "title" : "Minor in Software Engineering",
+        "id" : 1
     },
     {
-        "title" : "Minor in Information Technology"
+        "title" : "Minor in Information Technology",
+        "id" : 2
     }
 ]
